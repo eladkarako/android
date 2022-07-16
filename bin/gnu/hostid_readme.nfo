@@ -1,0 +1,8 @@
+Usage: hostid.exe
+  or:  hostid.exe OPTION
+Print the numeric identifier (in hexadecimal) for the current host.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

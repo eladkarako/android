@@ -1,0 +1,3 @@
+Usage: frcode.exe [-0 | --null] [--version] [--help]
+
+Report bugs to <bug-findutils@gnu.org>.

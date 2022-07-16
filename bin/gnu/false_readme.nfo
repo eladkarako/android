@@ -1,0 +1,10 @@
+Usage: false.exe [ignored command line arguments]
+  or:  false.exe OPTION
+Exit with a status code indicating failure.
+
+These option names may not be abbreviated.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

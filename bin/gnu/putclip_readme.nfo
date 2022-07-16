@@ -1,0 +1,16 @@
+putclip.exe version 0.2.0
+  Copy stdin to the Windows Clipboard
+
+Usage: putclip.exe [OPTION...]
+
+General options
+  -d, --dos         Clipboard text will have DOS line endings.
+  -u, --unix        Clipboard text will have UNIX line endings.
+  -n, --no-conv     Do not translate line endings.
+
+Help options
+  -?, --help        Show this help message
+  --usage           Display brief usage message
+  --version         Display version information
+  --license         Display licensing information
+NOTE: by default, no line ending conversion is performed.

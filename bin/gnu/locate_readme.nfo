@@ -1,0 +1,7 @@
+Usage: locate.exe [-d path | --database=path] [-e | --existing]
+      [-i | --ignore-case] [-w | --wholename] [-b | --basename] 
+      [--limit=N | -l N] [-S | --statistics] [-0 | --null] [-c | --count]
+      [-P | -H | --nofollow] [-L | --follow] [-m | --mmap ] [ -s | --stdio ]
+      [-r | --regex ] [--version] [--help] pattern...
+
+Report bugs to <bug-findutils@gnu.org>.

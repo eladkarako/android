@@ -1,0 +1,25 @@
+readshortcut.exe version 1.0
+  Reads and outputs data from a Windows shortcut (.lnk) file.
+
+Usage: readshortcut.exe [OPTION]* SHORTCUT
+
+Output options
+  -f, --fields      Show field names
+  -u, --unix        Use Unix path format for display (default)
+  -w, --windows     Use Windows path format for display 
+  -t, --target      Display shortcut target
+  -g, --working     Display shortcut working directory
+  -r, --args        Display shortcut arguments
+  -s, --showcmd     Display shortcut "show" command value
+  -i, --icon        Display icon library location
+  -j, --offset      Display icon library offset
+  -d, --desc        Display shortcut description
+  -a, --all         Display all information
+
+Information options (display a message and exit)
+  -h, --help        This message
+  --usage           Program usage
+  -v, --version     Version information
+  --license         License information
+
+NOTE: The SHORTCUT argument may be in Windows or Unix format.

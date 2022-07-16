@@ -1,0 +1,6 @@
+fUnZip (filter UnZip), version 3.94 of 17 February 2002
+usage: ... | funzip [-password] | ...
+       ... | funzip [-password] > outfile
+       funzip [-password] infile.zip > outfile
+       funzip [-password] infile.gz > outfile
+Extracts to stdout the gzip file or first zip entry of stdin or the given file.

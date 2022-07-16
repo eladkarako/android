@@ -1,0 +1,9 @@
+Usage: basename.exe NAME [SUFFIX]
+  or:  basename.exe OPTION
+Print NAME with any leading directory components removed.
+If specified, also remove a trailing SUFFIX.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

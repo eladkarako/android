@@ -1,0 +1,7 @@
+Usage: pwd.exe [OPTION]
+Print the full filename of the current working directory.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

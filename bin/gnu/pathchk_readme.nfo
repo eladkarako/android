@@ -1,0 +1,8 @@
+Usage: pathchk.exe [OPTION]... NAME...
+Diagnose unportable constructs in NAME.
+
+  -p, --portability   check for all POSIX systems, not only this one
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

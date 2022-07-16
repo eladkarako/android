@@ -1,0 +1,25 @@
+unix2dos version 0.1.3
+  converts the line endings of text files from
+  UNIX style (0x0a) to DOS style (0x0d 0x0a)
+
+Usage: unix2dos.exe [OPTION...] [input file list...]
+
+Main options (not all may apply)
+  -A, --auto     Output format will be the opposite of the autodetected source
+                 format
+  -D, --u2d      Output will be in DOS format
+  --unix2dos     Output will be in DOS format
+  -U, --d2u      Output will be in UNIX format
+  --dos2unix     Output will be in UNIX format
+  --force        Ignore binary file detection
+  --safe         Do not modify binary files
+
+Help options
+  -?, --help     Show this help message
+  --usage        Display brief usage message
+  --version      Display version information
+  --license      Display licensing information
+
+Other arguments
+  [input file list...]       for each file listed, convert in place.
+                             If none specified, then use stdin/stdout

@@ -1,0 +1,58 @@
+cygstart.exe version 1.4, by Michael Schaap
+
+Let Windows start a program or open a file or URL.
+
+Usage: cygstart.exe [OPTION]... FILE [ARGUMENTS]
+
+Action options
+  -a, --action=STRING        Use specified action instead of default
+  -o, --open                 Short for: --action open
+  -x, --explore              Short for: --action explore
+  -e, --edit                 Short for: --action edit
+  -f, --find                 Short for: --action find
+  -p, --print                Short for: --action print
+
+Directory options
+  -d, --directory=STRING     Set working directory
+
+Show options
+  --hide                     Hides the window and activates another window
+  --maximize                 Maximizes the specified window
+  --minimize                 Minimizes the specified window and activates the
+                             next top-level window in the z-order
+  --restore                  Activates and displays the window. If the window
+                             is minimized or maximized, Windows restores it to
+                             its original size and position. An application
+                             should specify this flag when restoring a
+                             minimized window
+  --show                     Activates the window and displays it in its
+                             current size and position
+  --showmaximized            Activates the window and displays it as a
+                             maximized window
+  --showminimized            Activates the window and displays it as a
+                             minimized window
+  --showminnoactive          Displays the window as a minimized window. The
+                             active window remains active
+  --showna                   Displays the window in its current state. The
+                             active window remains active
+  --shownoactivate           Displays a window in its most recent size and
+                             position. The active window remains active
+  --shownormal               Activates and displays a window. If the window is
+                             minimized or maximized, Windows restores it to
+                             its original size and position. An application
+                             should specify this flag when displaying the
+                             window for the first time
+
+Troubleshooting options
+  -v, --verbose              Show the actual ShellExecute call made
+
+Help options
+  -?, --help                 Show this help message
+  --usage                    Display brief usage message
+  --version                  Display version information
+  --license                  Display licensing information
+  --reference                Open MSDN reference for ShellExecute
+
+With thanks to MSDN: <http://msdn.microsoft.com/library/en-us/shellcc/platform/Shell/reference/functions/shellexecute.asp>
+
+Please report any bugs to <cygwin(at)cygwin.com>.

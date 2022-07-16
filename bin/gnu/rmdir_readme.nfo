@@ -1,0 +1,14 @@
+Usage: rmdir.exe [OPTION]... DIRECTORY...
+Remove the DIRECTORY(ies), if they are empty.
+
+      --ignore-fail-on-non-empty
+                  ignore each failure that is solely because a directory
+                  is non-empty
+  -p, --parents   remove DIRECTORY, then try to remove each directory
+                  component of that path name.  E.g., `rmdir -p a/b/c' is
+                  similar to `rmdir a/b/c a/b a'.
+  -v, --verbose   output a diagnostic for every directory processed
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

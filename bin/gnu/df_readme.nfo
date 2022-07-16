@@ -1,0 +1,26 @@
+Usage: df.exe [OPTION]... [FILE]...
+Show information about the file system on which each FILE resides,
+or all file systems by default.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all             include file systems having 0 blocks
+  -B, --block-size=SIZE use SIZE-byte blocks
+  -h, --human-readable  print sizes in human readable format (e.g., 1K 234M 2G)
+  -H, --si              likewise, but use powers of 1000 not 1024
+  -i, --inodes          list inode information instead of block usage
+  -k                    like --block-size=1K
+  -l, --local           limit listing to local file systems
+      --no-sync         do not invoke sync before getting usage info (default)
+  -P, --portability     use the POSIX output format
+      --sync            invoke sync before getting usage info
+  -t, --type=TYPE       limit listing to file systems of type TYPE
+  -T, --print-type      print file system type
+  -x, --exclude-type=TYPE   limit listing to file systems not of type TYPE
+  -v                    (ignored)
+      --help     display this help and exit
+      --version  output version information and exit
+
+SIZE may be (or may be an integer optionally followed by) one of following:
+kB 1000, K 1024, MB 1000*1000, M 1024*1024, and so on for G, T, P, E, Z, Y.
+
+Report bugs to <bug-coreutils@gnu.org>.

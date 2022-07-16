@@ -1,0 +1,9 @@
+Usage: mkfifo.exe [OPTION] NAME...
+Create named pipes (FIFOs) with the given NAMEs.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -m, --mode=MODE   set permission mode (as in chmod), not a=rw - umask
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

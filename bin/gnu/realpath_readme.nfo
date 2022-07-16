@@ -1,0 +1,10 @@
+realpath.exe version 0.9, by Steven Barker
+  Print PATH with all references to `.', `..', and symlinks resolved.
+
+Usage: realpath.exe [OPTIONS...] PATH
+
+Help options
+  -?, --help     Show this help message
+  --usage        Display brief usage message
+  --version      Display version information
+  --license      Display licensing information

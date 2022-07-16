@@ -1,0 +1,12 @@
+Usage: setuidgid.exe USERNAME COMMAND [ARGUMENT]...
+  or:  setuidgid.exe OPTION
+Drop any supplemental groups, assume the user-ID and group-ID of
+the specified USERNAME, and run COMMAND with any specified ARGUMENTs.
+Exit with status 111 if unable to assume the required UID and GID.
+Otherwise, exit with the exit status of COMMAND.
+This program is useful only when run by root (UID=0).
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

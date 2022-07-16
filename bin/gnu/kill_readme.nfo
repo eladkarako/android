@@ -1,0 +1,18 @@
+Usage: kill.exe [-s SIGNAL | -SIGNAL] PID...
+  or:  kill.exe -l [SIGNAL]...
+  or:  kill.exe -t [SIGNAL]...
+Send signals to processes, or list signals.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -s, --signal=SIGNAL, -SIGNAL
+                   specify the name or number of the signal to be sent
+  -l, --list       list signal names, or convert signal names to/from numbers
+  -t, --table      print a table of signal information
+      --help     display this help and exit
+      --version  output version information and exit
+
+SIGNAL may be a signal name like `HUP', or a signal number like `1',
+or an exit status of a process terminated by a signal.
+PID is an integer; if negative it identifies a process group.
+
+Report bugs to <bug-coreutils@gnu.org>.

@@ -1,0 +1,26 @@
+Usage: rm.exe [OPTION]... FILE...
+Remove (unlink) the FILE(s).
+
+  -d, --directory       unlink FILE, even if it is a non-empty directory
+                          (super-user only; this works only if your system
+                           supports `unlink' for nonempty directories)
+  -f, --force           ignore nonexistent files, never prompt
+  -i, --interactive     prompt before any removal
+      --no-preserve-root do not treat `/' specially (the default)
+      --preserve-root   fail to operate recursively on `/'
+  -r, -R, --recursive   remove the contents of directories recursively
+  -v, --verbose         explain what is being done
+      --help     display this help and exit
+      --version  output version information and exit
+
+To remove a file whose name starts with a `-', for example `-foo',
+use one of these commands:
+  rm.exe -- -foo
+
+  rm.exe ./-foo
+
+Note that if you use rm to remove a file, it is usually possible to recover
+the contents of that file.  If you want more assurance that the contents are
+truly unrecoverable, consider using shred.
+
+Report bugs to <bug-coreutils@gnu.org>.

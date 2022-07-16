@@ -1,0 +1,2 @@
+slightly modified version of Notepad3 from https://github.com/rizonesoft/Notepad3/
+manifest has long path awareness, segmented heap and history items were soft disabled and menu items were removed so I could commit the `ini` file without clearing the history each time.

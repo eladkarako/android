@@ -1,0 +1,7 @@
+Usage: logname.exe [OPTION]
+Print the name of the current user.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

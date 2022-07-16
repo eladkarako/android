@@ -1,0 +1,19 @@
+Usage: split.exe [OPTION] [INPUT [PREFIX]]
+Output fixed-size pieces of INPUT to PREFIXaa, PREFIXab, ...; default
+size is 1000 lines, and default PREFIX is `x'.  With no INPUT, or when INPUT
+is -, read standard input.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --suffix-length=N   use suffixes of length N (default 2)
+  -b, --bytes=SIZE        put SIZE bytes per output file
+  -C, --line-bytes=SIZE   put at most SIZE bytes of lines per output file
+  -d, --numeric-suffixes  use numeric suffixes instead of alphabetic
+  -l, --lines=NUMBER      put NUMBER lines per output file
+      --verbose           print a diagnostic to standard error just
+                            before each output file is opened
+      --help     display this help and exit
+      --version  output version information and exit
+
+SIZE may have a multiplier suffix: b for 512, k for 1K, m for 1 Meg.
+
+Report bugs to <bug-coreutils@gnu.org>.

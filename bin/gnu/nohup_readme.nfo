@@ -1,0 +1,8 @@
+Usage: nohup.exe COMMAND [ARG]...
+  or:  nohup.exe OPTION
+Run COMMAND, ignoring hangup signals.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

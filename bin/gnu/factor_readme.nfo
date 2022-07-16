@@ -1,0 +1,11 @@
+Usage: factor.exe [NUMBER]...
+  or:  factor.exe OPTION
+Print the prime factors of each NUMBER.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+  Print the prime factors of all specified integer NUMBERs.  If no arguments
+  are specified on the command line, they are read from standard input.
+
+Report bugs to <bug-coreutils@gnu.org>.

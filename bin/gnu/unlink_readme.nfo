@@ -1,0 +1,8 @@
+Usage: unlink.exe FILE
+  or:  unlink.exe OPTION
+Call the unlink function to remove the specified FILE.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

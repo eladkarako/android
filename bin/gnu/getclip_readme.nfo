@@ -1,0 +1,17 @@
+getclip.exe version 0.2.0
+  Copy the Windows Clipboard to stdout
+
+Usage: getclip.exe [OPTION...]
+
+General options
+  -d, --dos         Output text will have DOS line endings.
+  -u, --unix        Output text will have UNIX line endings.
+  -n, --no-conv     Do not translate line endings.
+
+Help options
+  -?, --help        Show this help message
+  --usage           Display brief usage message
+  --version         Display version information
+  --license         Display licensing information
+
+NOTE: by default, no line ending conversion is performed.

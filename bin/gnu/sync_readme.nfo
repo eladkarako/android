@@ -1,0 +1,7 @@
+Usage: sync.exe [OPTION]
+Force changed blocks to disk, update the super block.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

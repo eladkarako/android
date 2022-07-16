@@ -1,0 +1,22 @@
+lpr.exe: invalid option -- -
+lpr: unknown option: -?
+
+Usage: lpr [-h] [-D] [-d device] [-l] [-P device]
+
+where:
+
+  -h        does nothing. Accepted for compatibility.
+  -d device spools to the specified device.
+  -D        enable debugging output.
+  -l        prevent <LF> -> <CR><LF> processing. By default, standalone            <LF> characters are converted to <CR><LF>.  -P device spools to the specified device.
+
+Notes:
+
+-d and -P are aliases of each other and perform the same function.
+Device names may take the form of DOS devices (e.g., lpt1:) if the printer
+is connected locally. Network printers can be accessed using the form
+'\\server\printer_name'. Forward slashes can be used as well, e.g.,
+'//server/printer_name'.
+
+The environment variable PRINTER can be used to set the default printer
+device.

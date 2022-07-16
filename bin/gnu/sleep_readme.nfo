@@ -1,0 +1,11 @@
+Usage: sleep.exe NUMBER[SUFFIX]...
+  or:  sleep.exe OPTION
+Pause for NUMBER seconds.  SUFFIX may be `s' for seconds (the default),
+`m' for minutes, `h' for hours or `d' for days.  Unlike most implementations
+that require NUMBER be an integer, here NUMBER may be an arbitrary floating
+point number.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

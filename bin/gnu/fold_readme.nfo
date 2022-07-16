@@ -1,0 +1,12 @@
+Usage: fold.exe [OPTION]... [FILE]...
+Wrap input lines in each FILE (standard input by default), writing to
+standard output.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -b, --bytes         count bytes rather than columns
+  -s, --spaces        break at spaces
+  -w, --width=WIDTH   use WIDTH columns instead of 80
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

@@ -1,0 +1,17 @@
+banner.exe version 1.0
+  Prints a string enlarged as a banner on the screen.
+
+Usage: banner.exe A string to print...
+
+General options
+  -c, --char=X       use character <X>
+  -w, --width=80     set display width to <80> 
+
+Help options
+  -?, --help         Show this help message
+  --usage            Display brief usage message
+  --version          Display version information
+  --license          Display licensing information
+
+This version works the same way as System V'S banner does:
+The banner text is displayed horizontally.

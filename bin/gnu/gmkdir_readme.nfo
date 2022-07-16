@@ -1,0 +1,11 @@
+Usage: gmkdir.exe [OPTION] DIRECTORY...
+Create the DIRECTORY(ies), if they do not already exist.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -m, --mode=MODE   set permission mode (as in chmod), not rwxrwxrwx - umask
+  -p, --parents     no error if existing, make parent directories as needed
+  -v, --verbose     print a message for each created directory
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

@@ -1,0 +1,10 @@
+ascii.exe version 0.1.1
+  Prints nicely formatted table of the ascii character set
+
+Usage: ascii.exe [OPTION...]
+
+Help options
+  -?, --help     Show this help message
+  --usage        Display brief usage message
+  --version      Display version information
+  --license      Display licensing information

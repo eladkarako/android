@@ -1,0 +1,27 @@
+mkshortcut.exe (cygutils) version 1.7
+  create a Windows shortcut
+
+Usage: mkshortcut.exe [OPTION]* TARGET
+
+General options
+  -a, --arguments=ARGS        Use arguments ARGS
+  -d, --desc=DESC             Text for description/tooltip (defaults to POSIX
+                              path of TARGET)
+  -i, --icon=ICONFILE         Icon file for link to use
+  -j, --iconoffset=INT        Offset of icon in icon file (default is 0)
+  -n, --name=NAME             Name for link (defaults to TARGET)
+  -s, --show=norm|min|max     Window to show: normal, minimized, maximized
+  -w, --workingdir=PATH       Set working directory (defaults to directory
+                              path of TARGET)
+  -A, --allusers              Use 'All Users' instead of current user for -D,-P
+  -D, --desktop               Create link relative to 'Desktop' directory
+  -P, --smprograms            Create link relative to Start Menu 'Programs'
+                              directory
+
+Help options
+  -h, --help                  Show this help message
+  --usage                     Display brief usage message
+  -v, --version               Display version information
+  --license                   Display licensing information
+
+NOTE: All filename arguments must be in unix (POSIX) format

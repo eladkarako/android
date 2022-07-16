@@ -1,0 +1,10 @@
+Usage: chroot.exe NEWROOT [COMMAND...]
+  or:  chroot.exe OPTION
+Run COMMAND with root directory set to NEWROOT.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+If no command is given, run ``${SHELL} -i'' (default: /bin/sh).
+
+Report bugs to <bug-coreutils@gnu.org>.

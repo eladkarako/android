@@ -1,0 +1,8 @@
+Usage: yes.exe [STRING]...
+  or:  yes.exe OPTION
+Repeatedly output a line with all specified STRING(s), or `y'.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

@@ -1,0 +1,10 @@
+Usage: true.exe [ignored command line arguments]
+  or:  true.exe OPTION
+Exit with a status code indicating success.
+
+These option names may not be abbreviated.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+Report bugs to <bug-coreutils@gnu.org>.

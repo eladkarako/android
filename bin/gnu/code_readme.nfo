@@ -1,0 +1,4 @@
+Usage: code.exe [--version | --help]
+or     code.exe most_common_bigrams < file-list > locate-database
+
+Report bugs to <bug-findutils@gnu.org>.

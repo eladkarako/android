@@ -1,0 +1,11 @@
+Usage: sum.exe [OPTION]... [FILE]...
+Print checksum and block counts for each FILE.
+
+  -r              defeat -s, use BSD sum algorithm, use 1K blocks
+  -s, --sysv      use System V sum algorithm, use 512 bytes blocks
+      --help     display this help and exit
+      --version  output version information and exit
+
+With no FILE, or when FILE is -, read standard input.
+
+Report bugs to <bug-coreutils@gnu.org>.

@@ -1,0 +1,13 @@
+dump.exe version 0.1.1
+  Prints a hexdump of stdin or specified files to stdout
+
+Usage: dump.exe [OPTION...] [files...]
+
+Help options
+  -?, --help     Show this help message
+  --usage        Display brief usage message
+  --version      Display version information
+  --license      Display licensing information
+
+Other arguments
+  [files...]      dump each file specified; if none, use stdin

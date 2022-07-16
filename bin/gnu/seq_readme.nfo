@@ -1,0 +1,20 @@
+Usage: seq.exe [OPTION]... LAST
+  or:  seq.exe [OPTION]... FIRST LAST
+  or:  seq.exe [OPTION]... FIRST INCREMENT LAST
+Print numbers from FIRST to LAST, in steps of INCREMENT.
+
+  -f, --format=FORMAT      use printf style floating-point FORMAT (default: %g)
+  -s, --separator=STRING   use STRING to separate numbers (default: \n)
+  -w, --equal-width        equalize width by padding with leading zeroes
+      --help     display this help and exit
+      --version  output version information and exit
+
+If FIRST or INCREMENT is omitted, it defaults to 1.  That is, an
+omitted INCREMENT defaults to 1 even when LAST is smaller than FIRST.
+FIRST, INCREMENT, and LAST are interpreted as floating point values.
+INCREMENT is usually positive if FIRST is smaller than LAST, and
+INCREMENT is usually negative if FIRST is greater than LAST.
+When given, the FORMAT argument must contain exactly one of
+the printf-style, floating point output formats %e, %f, %g
+
+Report bugs to <bug-coreutils@gnu.org>.
